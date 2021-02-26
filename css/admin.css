@@ -11,16 +11,21 @@ Theme: Food order website
   font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper {
-  border: 1px solid black;
   padding: 1rem;
-  width: 80;
+  width: 80%;
   margin: 0 auto;
 }
 .text-center {
   text-align: center;
 }
-
+.clearfix {
+  float: none;
+  clear: both;
+}
 /* css for menu*/
+.menu {
+  border-bottom: 1px solid black;
+}
 .menu ul {
   list-style-type: none;
 }
@@ -36,7 +41,21 @@ Theme: Food order website
 .menu ul li a:hover {
   color: #ff4757;
 }
-.main-content
+
+/* css for main-content */
+
+.main-content {
+  background-color: #f1f2f6;
+  padding: 3% 0;
+}
+.col-4 {
+  width: 18%;
+  background-color: white;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+
 /* css for footer*/
 .footer {
   background-color: #ff4754;
