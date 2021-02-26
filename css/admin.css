@@ -1,0 +1,45 @@
+/*
+Author: Kindeme Kounoudji
+Theme: Food order website
+
+*/
+
+* {
+  padding: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  border: 1px solid black;
+  padding: 1rem;
+  width: 80;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+
+/* css for menu*/
+.menu ul {
+  list-style-type: none;
+}
+.menu ul li {
+  display: inline;
+  padding: 1%;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff6b81;
+}
+.menu ul li a:hover {
+  color: #ff4757;
+}
+.main-content
+/* css for footer*/
+.footer {
+  background-color: #ff4754;
+  color: white;
+  font-size: 1.1rem;
+}
